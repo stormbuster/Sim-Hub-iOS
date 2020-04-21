@@ -13,6 +13,7 @@
 		E1A7659F244EF6A0007B2445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A7659D244EF6A0007B2445 /* Main.storyboard */; };
 		E1A765A1244EF6A0007B2445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A765A0244EF6A0007B2445 /* Assets.xcassets */; };
 		E1A765A4244EF6A0007B2445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A765A2244EF6A0007B2445 /* LaunchScreen.storyboard */; };
+		E1A765AC244EF6D1007B2445 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1A765AB244EF6D1007B2445 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E1A765A0244EF6A0007B2445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1A765A3244EF6A0007B2445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1A765A5244EF6A0007B2445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A765AB244EF6D1007B2445 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				E1A765A0244EF6A0007B2445 /* Assets.xcassets */,
 				E1A765A2244EF6A0007B2445 /* LaunchScreen.storyboard */,
 				E1A765A5244EF6A0007B2445 /* Info.plist */,
+				E1A765AB244EF6D1007B2445 /* Settings.bundle */,
 				E1A76594244EF6A0007B2445 /* Supporting Files */,
 			);
 			path = "Sim Hub";
@@ -110,6 +113,7 @@
 				TargetAttributes = {
 					E1A76590244EF6A0007B2445 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VLE9UF43XH;
 					};
 				};
 			};
@@ -136,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A765AC244EF6D1007B2445 /* Settings.bundle in Resources */,
 				E1A765A4244EF6A0007B2445 /* LaunchScreen.storyboard in Resources */,
 				E1A765A1244EF6A0007B2445 /* Assets.xcassets in Resources */,
 				E1A7659F244EF6A0007B2445 /* Main.storyboard in Resources */,
@@ -265,10 +270,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Sim Hub/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.welivelikethis.Sim-Hub";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -276,10 +285,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Sim Hub/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.welivelikethis.Sim-Hub";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
