@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import <WebKit/WebKit.h>
 
-@interface ViewController ()
+@interface ViewController () <UIWebViewDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 @end
@@ -20,6 +20,10 @@
     [super viewDidLoad];
    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(refreshWebView) name:UIApplicationWillEnterForegroundNotification object:nil];
+    
+    [self.webView setDelegate:self];
+    [self.webView setScalesPageToFit:YES];
+    
     [self loadWebContent];
 }
 
@@ -40,5 +44,11 @@
     [self loadWebContent];
 }
 
+
+#pragma mark UIWebViewDelegate
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
+{
+    NSLog(@"Error : %@",error);
+}
 
 @end
