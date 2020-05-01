@@ -1,6 +1,6 @@
 # Sim-Hub-iOS
 
-![SimHub iOS](https://www.dropbox.com/s/ozuk0xxgmos9199/IMG_7891.jpg?dl=0)
+![SimHub iOS](https://www.dropbox.com/s/ozuk0xxgmos9199/IMG_7891.jpg?raw=1)
 
 A simple iOS Webkit wrapper app for SimHub with rotation lock, so when you mount your phone on a steering wheel the screen does not rotate continuously.
 
