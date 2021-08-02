@@ -13,7 +13,7 @@
       "size" : "20x20"
     },
     {
-      "filename" : "Icon-29@1,5x.png",
+      "filename" : "Icon-29@1x-1.png",
       "idiom" : "iphone",
       "scale" : "1x",
       "size" : "29x29"
@@ -43,7 +43,7 @@
       "size" : "40x40"
     },
     {
-      "filename" : "Icon-57@1,5x.png",
+      "filename" : "Icon-57@1x-1.png",
       "idiom" : "iphone",
       "scale" : "1x",
       "size" : "57x57"
@@ -67,7 +67,7 @@
       "size" : "60x60"
     },
     {
-      "filename" : "Icon-20@1x.png",
+      "filename" : "Icon-20@1x-1.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "20x20"
@@ -79,7 +79,7 @@
       "size" : "20x20"
     },
     {
-      "filename" : "Icon-29@1x.png",
+      "filename" : "Icon-29@1x-2.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "29x29"
@@ -91,7 +91,7 @@
       "size" : "29x29"
     },
     {
-      "filename" : "Icon-40@1x.png",
+      "filename" : "Icon-40@1x-1.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "40x40"
@@ -103,27 +103,31 @@
       "size" : "40x40"
     },
     {
+      "filename" : "Icon-50@1x-1.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "50x50"
     },
     {
+      "filename" : "Icon-50@2x-1.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "50x50"
     },
     {
+      "filename" : "Icon-72@1x-2.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "72x72"
     },
     {
+      "filename" : "Icon-72@2x-1.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "72x72"
     },
     {
-      "filename" : "Icon-76@1x-2.png",
+      "filename" : "Icon-76@1x-1.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "76x76"
@@ -135,18 +139,18 @@
       "size" : "76x76"
     },
     {
+      "filename" : "Icon-83.5@2x@1x-1.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "83.5x83.5"
     },
     {
-      "filename" : "Icon-1024@1x.png",
+      "filename" : "Icon-1024@1x-1.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
     },
     {
-      "filename" : "Icon-1024@2x.png",
       "idiom" : "car",
       "scale" : "2x",
       "size" : "60x60"
@@ -230,7 +234,7 @@
       "size" : "1024x1024"
     },
     {
-      "filename" : "Icon-16@1x.png",
+      "filename" : "Icon-16@1x-1.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
@@ -242,7 +246,7 @@
       "size" : "16x16"
     },
     {
-      "filename" : "Icon-32@1x.png",
+      "filename" : "Icon-32@1x-1.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
@@ -254,7 +258,7 @@
       "size" : "32x32"
     },
     {
-      "filename" : "Icon-128@1x.png",
+      "filename" : "Icon-128@1x-1.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
@@ -266,7 +270,7 @@
       "size" : "128x128"
     },
     {
-      "filename" : "Icon-256@1x.png",
+      "filename" : "Icon-256@1x-1.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
@@ -278,9 +282,469 @@
       "size" : "256x256"
     },
     {
+      "filename" : "Icon-1024@1x-2.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"
+    },
+    {
+      "filename" : "Icon-27.5@2x@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Icon-27.5@2x@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Icon-27.5@2x@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "Icon-16@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "16x16"
+    },
+    {
+      "filename" : "Icon-20@0,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "20x20"
+    },
+    {
+      "filename" : "Icon-24@0,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "24x24"
+    },
+    {
+      "filename" : "Icon-24@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "24x24"
+    },
+    {
+      "filename" : "Icon-24@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "24x24"
+    },
+    {
+      "filename" : "Icon-32@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "32x32"
+    },
+    {
+      "filename" : "Icon-40@0,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "40x40"
+    },
+    {
+      "filename" : "Icon-44@0,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "44x44"
+    },
+    {
+      "filename" : "Icon-44@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "44x44"
+    },
+    {
+      "filename" : "Icon-44@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "44x44"
+    },
+    {
+      "filename" : "Icon-50@0,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "50x50"
+    },
+    {
+      "filename" : "Icon-50@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "50x50"
+    },
+    {
+      "filename" : "Icon-50@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "50x50"
+    },
+    {
+      "filename" : "Icon-57@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "57x57"
+    },
+    {
+      "filename" : "Icon-60@0,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "60x60"
+    },
+    {
+      "filename" : "Icon-72@0,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "72x72"
+    },
+    {
+      "filename" : "Icon-72@1x-1.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "72x72"
+    },
+    {
+      "filename" : "Icon-72@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "72x72"
+    },
+    {
+      "filename" : "Icon-72@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "72x72"
+    },
+    {
+      "filename" : "Icon-76@0,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "76x76"
+    },
+    {
+      "filename" : "Icon-76@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "76x76"
+    },
+    {
+      "filename" : "Icon-76@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "76x76"
+    },
+    {
+      "filename" : "Icon-86@0,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "86x86"
+    },
+    {
+      "filename" : "Icon-86@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "86x86"
+    },
+    {
+      "filename" : "Icon-86@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "86x86"
+    },
+    {
+      "filename" : "Icon-98@0,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "98x98"
+    },
+    {
+      "filename" : "Icon-98@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "98x98"
+    },
+    {
+      "filename" : "Icon-98@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "98x98"
+    },
+    {
+      "filename" : "Icon-108@0,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "108x108"
+    },
+    {
+      "filename" : "Icon-108@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "108x108"
+    },
+    {
+      "filename" : "Icon-108@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "108x108"
+    },
+    {
+      "filename" : "Icon-128@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "Icon-256@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "256x256"
+    },
+    {
+      "filename" : "Icon-1024@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "1024x1024"
+    },
+    {
+      "filename" : "Icon-1024@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "size" : "1024x1024"
+    },
+    {
+      "filename" : "Icon-1024@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "size" : "1024x1024"
+    },
+    {
+      "filename" : "Icon-29@1,5x.png",
+      "idiom" : "iphone",
+      "scale" : "1x",
+      "size" : "29x29",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-29@1x.png",
+      "idiom" : "iphone",
+      "scale" : "1x",
+      "size" : "29x29",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-57@1,5x.png",
+      "idiom" : "iphone",
+      "scale" : "1x",
+      "size" : "57x57",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-57@1x.png",
+      "idiom" : "iphone",
+      "scale" : "1x",
+      "size" : "57x57",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-16@1x.png",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "16x16",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-32@1x.png",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "32x32",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-128@1x.png",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "128x128",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-256@1x.png",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "256x256",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-83.5@2x@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-83.5@2x@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-83.5@2x@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-20@1,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "20x20",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-20@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "20x20",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-24@1,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "24x24",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-24@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "24x24",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-40@1,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "40x40",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-40@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "40x40",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-44@1,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "44x44",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-44@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "44x44",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-50@1,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "50x50",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-50@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "50x50",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-60@1,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "60x60",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-60@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "60x60",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-72@1,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "72x72",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-72@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "72x72",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-76@1,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "76x76",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-76@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "76x76",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-86@1,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "86x86",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-86@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "86x86",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-98@1,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "98x98",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-98@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "98x98",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-108@1,5x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "108x108",
+      "unassigned" : true
+    },
+    {
+      "filename" : "Icon-108@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "size" : "108x108",
+      "unassigned" : true
     }
   ],
   "info" : {
