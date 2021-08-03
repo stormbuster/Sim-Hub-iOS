@@ -25,7 +25,6 @@
 - (void)loadSettings {
     NSUserDefaults * standardUserDefaults = [NSUserDefaults standardUserDefaults];
     NSString * server_preference = [standardUserDefaults objectForKey:@"home_url"];
-    //    bool *homeButtonRight = [defaults boolForKey:@"home_button_right"]; //NSNumber needed here
 
     if (!server_preference) {
         [self registerDefaultsFromSettingsBundle];

@@ -97,14 +97,14 @@
 				E1A76598244EF6A0007B2445 /* AppDelegate.m */,
 				E1A7659A244EF6A0007B2445 /* ViewController.h */,
 				E1A7659B244EF6A0007B2445 /* ViewController.m */,
+				E102537E26B9DE2200FEC5EA /* SHWebView.h */,
+				E102537F26B9DE2200FEC5EA /* SHWebView.m */,
 				E1A7659D244EF6A0007B2445 /* Main.storyboard */,
 				E1A765A0244EF6A0007B2445 /* Assets.xcassets */,
 				E1A765A2244EF6A0007B2445 /* LaunchScreen.storyboard */,
 				E1A765A5244EF6A0007B2445 /* Info.plist */,
 				E1A765AB244EF6D1007B2445 /* Settings.bundle */,
 				E1A76594244EF6A0007B2445 /* Supporting Files */,
-				E102537E26B9DE2200FEC5EA /* SHWebView.h */,
-				E102537F26B9DE2200FEC5EA /* SHWebView.m */,
 			);
 			path = "Sim Hub";
 			sourceTree = "<group>";

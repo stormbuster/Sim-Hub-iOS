@@ -8,6 +8,9 @@
 
 #import "SHWebView.h"
 
+
+static const float defaultMargin = 34;
+
 @implementation SHWebView
 
 /*
@@ -19,7 +22,9 @@
 */
 
 -(UIEdgeInsets)safeAreaInsets {
-    return UIEdgeInsetsMake(0,0,0,0);
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    bool shouldFill = [defaults boolForKey:@"should_fill_screen"];
+    return shouldFill ? UIEdgeInsetsMake(0,0,0,0) : UIEdgeInsetsMake(0,defaultMargin,0,defaultMargin);
 }
 
 @end

@@ -24,15 +24,15 @@
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
-			<string>Orientation</string>
+			<string>Scaling</string>
 		</dict>
 		<dict>
 			<key>Type</key>
 			<string>PSToggleSwitchSpecifier</string>
 			<key>Title</key>
-			<string>Home Button RIght</string>
+			<string>Fill Entire Screen</string>
 			<key>Key</key>
-			<string>home_button_right</string>
+			<string>should_fill_screen</string>
 			<key>DefaultValue</key>
 			<string>YES</string>
 		</dict>
