@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A36EDDADECF1D9F72A25E80E /* libPods-Sim Hub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9152B85A5072F4F009F9771 /* libPods-Sim Hub.a */; };
 		E102537A26B9949800FEC5EA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E102537926B9949800FEC5EA /* WebKit.framework */; };
+		E102538026B9DE2200FEC5EA /* SHWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = E102537F26B9DE2200FEC5EA /* SHWebView.m */; };
 		E1A76596244EF6A0007B2445 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A76595244EF6A0007B2445 /* main.m */; };
 		E1A76599244EF6A0007B2445 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A76598244EF6A0007B2445 /* AppDelegate.m */; };
 		E1A7659C244EF6A0007B2445 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A7659B244EF6A0007B2445 /* ViewController.m */; };
@@ -21,6 +22,8 @@
 /* Begin PBXFileReference section */
 		76C4A677767D52BE70FB2C09 /* Pods-Sim Hub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sim Hub.release.xcconfig"; path = "Target Support Files/Pods-Sim Hub/Pods-Sim Hub.release.xcconfig"; sourceTree = "<group>"; };
 		E102537926B9949800FEC5EA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/iOSSupport/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		E102537E26B9DE2200FEC5EA /* SHWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHWebView.h; sourceTree = "<group>"; };
+		E102537F26B9DE2200FEC5EA /* SHWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHWebView.m; sourceTree = "<group>"; };
 		E18776CB268A0A3500976993 /* Sim Hub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sim Hub.entitlements"; sourceTree = "<group>"; };
 		E1A76591244EF6A0007B2445 /* Sim Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sim Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A76595244EF6A0007B2445 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,7 +59,6 @@
 				F74B09E40EC9ED99D7544E24 /* Pods-Sim Hub.debug.xcconfig */,
 				76C4A677767D52BE70FB2C09 /* Pods-Sim Hub.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -101,6 +103,8 @@
 				E1A765A5244EF6A0007B2445 /* Info.plist */,
 				E1A765AB244EF6D1007B2445 /* Settings.bundle */,
 				E1A76594244EF6A0007B2445 /* Supporting Files */,
+				E102537E26B9DE2200FEC5EA /* SHWebView.h */,
+				E102537F26B9DE2200FEC5EA /* SHWebView.m */,
 			);
 			path = "Sim Hub";
 			sourceTree = "<group>";
@@ -213,6 +217,7 @@
 			files = (
 				E1A7659C244EF6A0007B2445 /* ViewController.m in Sources */,
 				E1A76599244EF6A0007B2445 /* AppDelegate.m in Sources */,
+				E102538026B9DE2200FEC5EA /* SHWebView.m in Sources */,
 				E1A76596244EF6A0007B2445 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
