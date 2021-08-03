@@ -30,7 +30,7 @@
 			<key>Type</key>
 			<string>PSToggleSwitchSpecifier</string>
 			<key>Title</key>
-			<string>Fill Entire Screen</string>
+			<string>Fill Entire Screen on iPhone</string>
 			<key>Key</key>
 			<string>should_fill_screen</string>
 			<key>DefaultValue</key>

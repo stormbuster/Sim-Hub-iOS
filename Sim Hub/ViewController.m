@@ -65,6 +65,7 @@
 
 - (void)appBecameActive {
     [self.webView setNeedsLayout];
+    [self.webView reload];
 }
 
 
