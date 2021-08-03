@@ -13,8 +13,6 @@
 #import "Masonry.h"
 
 
-//static NSString *const simhubUrl = @"http://192.168.2.227:8888/Dash#Zen%20Dash";
-
 @interface ViewController () <WKUIDelegate, WKNavigationDelegate>
 @property (nonatomic, strong) SHWebView *webView;
 
