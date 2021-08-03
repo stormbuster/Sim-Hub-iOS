@@ -41,8 +41,6 @@
     
     self.webView.UIDelegate = self;
     self.webView.navigationDelegate = self;
-    self.webView.backgroundColor = [UIColor clearColor];
-    self.webView.opaque = NO;
 
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSString *url = [defaults objectForKey:@"home_url"];
