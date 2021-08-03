@@ -26,6 +26,7 @@
     [super viewDidLoad];
     
     [self setupWebView];
+    [self registerNotifications];
 }
  
 - (void)setupWebView {
@@ -53,6 +54,17 @@
     [self.webView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
     }];
+}
+
+- (void)registerNotifications {
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(appBecameActive)
+                                                 name:UIApplicationWillEnterForegroundNotification
+                                               object:nil];
+}
+
+- (void)appBecameActive {
+    [self.webView setNeedsLayout];
 }
 
 
