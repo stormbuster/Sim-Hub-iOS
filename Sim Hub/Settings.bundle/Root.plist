@@ -8,7 +8,7 @@
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
-			<string>Webserver address https://ipaddress:port</string>
+			<string>Webserver Url https://ipaddress:port</string>
 		</dict>
 		<dict>
 			<key>Type</key>

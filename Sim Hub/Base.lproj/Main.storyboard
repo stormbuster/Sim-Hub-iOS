@@ -18,7 +18,23 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Waiting… Is SimHub running on your PC and did you enter the correct Webserver Url in iOS settings?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="95l-SX-86U">
+                                <rect key="frame" x="73" y="416" width="268" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="7y0-4z-qND"/>
+                                    <constraint firstAttribute="width" constant="268" id="gT2-Bf-rYA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="95l-SX-86U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O5f-NF-ieh"/>
+                            <constraint firstItem="95l-SX-86U" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hdS-el-Mdt"/>
+                        </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <nil key="simulatedTopBarMetrics"/>
