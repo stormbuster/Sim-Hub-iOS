@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A36EDDADECF1D9F72A25E80E /* libPods-Sim Hub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9152B85A5072F4F009F9771 /* libPods-Sim Hub.a */; };
+		E102537A26B9949800FEC5EA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E102537926B9949800FEC5EA /* WebKit.framework */; };
 		E1A76596244EF6A0007B2445 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A76595244EF6A0007B2445 /* main.m */; };
 		E1A76599244EF6A0007B2445 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A76598244EF6A0007B2445 /* AppDelegate.m */; };
 		E1A7659C244EF6A0007B2445 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A7659B244EF6A0007B2445 /* ViewController.m */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76C4A677767D52BE70FB2C09 /* Pods-Sim Hub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sim Hub.release.xcconfig"; path = "Target Support Files/Pods-Sim Hub/Pods-Sim Hub.release.xcconfig"; sourceTree = "<group>"; };
+		E102537926B9949800FEC5EA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/iOSSupport/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		E18776CB268A0A3500976993 /* Sim Hub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sim Hub.entitlements"; sourceTree = "<group>"; };
 		E1A76591244EF6A0007B2445 /* Sim Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sim Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A76595244EF6A0007B2445 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -29,6 +33,8 @@
 		E1A765A3244EF6A0007B2445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1A765A5244EF6A0007B2445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1A765AB244EF6D1007B2445 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		E9152B85A5072F4F009F9771 /* libPods-Sim Hub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sim Hub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74B09E40EC9ED99D7544E24 /* Pods-Sim Hub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sim Hub.debug.xcconfig"; path = "Target Support Files/Pods-Sim Hub/Pods-Sim Hub.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +42,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E102537A26B9949800FEC5EA /* WebKit.framework in Frameworks */,
+				A36EDDADECF1D9F72A25E80E /* libPods-Sim Hub.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		703A806A75C5AFE271320A88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F74B09E40EC9ED99D7544E24 /* Pods-Sim Hub.debug.xcconfig */,
+				76C4A677767D52BE70FB2C09 /* Pods-Sim Hub.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E102537826B9949800FEC5EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E102537926B9949800FEC5EA /* WebKit.framework */,
+				E9152B85A5072F4F009F9771 /* libPods-Sim Hub.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E1A76588244EF6A0007B2445 = {
 			isa = PBXGroup;
 			children = (
 				E1A76593244EF6A0007B2445 /* Sim Hub */,
 				E1A76592244EF6A0007B2445 /* Products */,
+				E102537826B9949800FEC5EA /* Frameworks */,
+				703A806A75C5AFE271320A88 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +120,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1A765A8244EF6A0007B2445 /* Build configuration list for PBXNativeTarget "Sim Hub" */;
 			buildPhases = (
+				12F3B0E60C2948E799AACAE3 /* [CP] Check Pods Manifest.lock */,
 				E1A7658D244EF6A0007B2445 /* Sources */,
 				E1A7658E244EF6A0007B2445 /* Frameworks */,
 				E1A7658F244EF6A0007B2445 /* Resources */,
@@ -150,6 +180,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12F3B0E60C2948E799AACAE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sim Hub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E1A7658D244EF6A0007B2445 /* Sources */ = {
@@ -233,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -284,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -294,6 +349,7 @@
 		};
 		E1A765A9244EF6A0007B2445 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F74B09E40EC9ED99D7544E24 /* Pods-Sim Hub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Sim Hub/Sim Hub.entitlements";
@@ -302,7 +358,7 @@
 				INFOPLIST_FILE = "Sim Hub/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.welivelikethis.Sim-Hub";
+				PRODUCT_BUNDLE_IDENTIFIER = com.welivelikethis.simhub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SUPPORTS_MACCATALYST = YES;
@@ -312,6 +368,7 @@
 		};
 		E1A765AA244EF6A0007B2445 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76C4A677767D52BE70FB2C09 /* Pods-Sim Hub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Sim Hub/Sim Hub.entitlements";
@@ -320,7 +377,7 @@
 				INFOPLIST_FILE = "Sim Hub/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.welivelikethis.Sim-Hub";
+				PRODUCT_BUNDLE_IDENTIFIER = com.welivelikethis.simhub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SUPPORTS_MACCATALYST = YES;
