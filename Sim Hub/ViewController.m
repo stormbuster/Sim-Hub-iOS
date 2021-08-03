@@ -9,8 +9,10 @@
 #import "ViewController.h"
 #import <WebKit/WebKit.h>
 
+#import "Masonry.h"
 
-static NSString *const simhubUrl = @"http://192.168.2.227:8888/Dash#Zen%20Dash";
+
+//static NSString *const simhubUrl = @"http://192.168.2.227:8888/Dash#Zen%20Dash";
 
 @interface ViewController () <WKUIDelegate, WKNavigationDelegate>
 @property (nonatomic, strong) WKWebView *webView;
@@ -35,16 +37,20 @@ static NSString *const simhubUrl = @"http://192.168.2.227:8888/Dash#Zen%20Dash";
 
     WKWebViewConfiguration *wkWebConfig = [[WKWebViewConfiguration alloc] init];
     wkWebConfig.userContentController = wkUController;
-
     self.webView = [[WKWebView alloc] initWithFrame:self.view.frame configuration:wkWebConfig];
+    
     self.webView.UIDelegate = self;
     self.webView.navigationDelegate = self;
-    
+    self.webView.backgroundColor = [UIColor clearColor];
+
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSString *url = [defaults objectForKey:@"home_url"];
     [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:url]]];
     
     [self.view addSubview:self.webView];
+    [self.webView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
 }
 
 
