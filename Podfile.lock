@@ -1,16 +1,27 @@
 PODS:
+  - AppCenter (4.1.0):
+    - AppCenter/Analytics (= 4.1.0)
+    - AppCenter/Crashes (= 4.1.0)
+  - AppCenter/Analytics (4.1.0):
+    - AppCenter/Core
+  - AppCenter/Core (4.1.0)
+  - AppCenter/Crashes (4.1.0):
+    - AppCenter/Core
   - Masonry (1.1.0)
 
 DEPENDENCIES:
+  - AppCenter
   - Masonry
 
 SPEC REPOS:
   trunk:
+    - AppCenter
     - Masonry
 
 SPEC CHECKSUMS:
+  AppCenter: 8832b158d17e54845c3b88a91076218f0b07174d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 8aa1480ae28027848f31aeccca460d9a9d552ae4
+PODFILE CHECKSUM: 199a62dd9596ddc3bc33847993ad09702f17e90b
 
 COCOAPODS: 1.10.1

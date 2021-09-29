@@ -50,6 +50,9 @@
     [self.webView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
     }];
+    
+    // Lock rotation
+//    [[UIDevice currentDevice] setValue:@(UIInterfaceOrientationLandscapeLeft) forKey:@"orientation"];
 }
 
 - (void)registerNotifications {
@@ -58,6 +61,15 @@
                                                  name:UIApplicationWillEnterForegroundNotification
                                                object:nil];
 }
+
+//  In  the viewControllers that you want to be portrait:
+//- (UIInterfaceOrientationMask)supportedInterfaceOrientations{
+//    return UIInterfaceOrientationMaskLandscape;
+//}
+//
+//-(BOOL)shouldAutorotate {
+//    return NO;
+//}
 
 - (void)appBecameActive {
     [self.webView setNeedsLayout];

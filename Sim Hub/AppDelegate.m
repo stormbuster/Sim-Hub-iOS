@@ -8,6 +8,11 @@
 
 #import "AppDelegate.h"
 
+#import <AppCenter/AppCenter.h>
+#import <AppCenterAnalytics/AppCenterAnalytics.h>
+#import <AppCenterCrashes/AppCenterCrashes.h>
+
+
 @interface AppDelegate ()
 
 @end
@@ -18,6 +23,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [self loadSettings];
+    [self setupMSAppCenter];
+
     return YES;
 }
 
@@ -29,6 +36,13 @@
     if (!server_preference) {
         [self registerDefaultsFromSettingsBundle];
     }
+}
+
+- (void) setupMSAppCenter {
+    [MSACAppCenter start:@"b0d6e87a-da32-40ac-a87f-b2751c9a5795" withServices:@[
+      [MSACAnalytics class],
+      [MSACCrashes class]
+    ]];
 }
 
 
