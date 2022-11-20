@@ -52,7 +52,7 @@
     }];
     
     // Lock rotation
-//    [[UIDevice currentDevice] setValue:@(UIInterfaceOrientationLandscapeLeft) forKey:@"orientation"];
+    [[UIDevice currentDevice] setValue:@(UIInterfaceOrientationLandscapeLeft) forKey:@"orientation"];
 }
 
 - (void)registerNotifications {
@@ -62,14 +62,14 @@
                                                object:nil];
 }
 
-//  In  the viewControllers that you want to be portrait:
-//- (UIInterfaceOrientationMask)supportedInterfaceOrientations{
-//    return UIInterfaceOrientationMaskLandscape;
-//}
-//
-//-(BOOL)shouldAutorotate {
-//    return NO;
-//}
+  //In  the viewControllers that you want to be portrait:
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations{
+    return UIInterfaceOrientationMaskLandscape;
+}
+
+-(BOOL)shouldAutorotate {
+    return NO;
+}
 
 - (void)appBecameActive {
     [self.webView setNeedsLayout];
